@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bilele123123/memory-card/static/css/main.fe0bece8.css",
-    "main.js": "/bilele123123/memory-card/static/js/main.5bc53997.js",
-    "static/media/maplestory.otf": "/bilele123123/memory-card/static/media/maplestory.914d802a2a94c180d332.otf",
-    "static/media/fox-valley.png": "/bilele123123/memory-card/static/media/fox-valley.2e2f387fdfb073bab331.png",
-    "static/media/maplestory-nav.jpg": "/bilele123123/memory-card/static/media/maplestory-nav.fd3434d0fb2ce125c713.jpg",
-    "index.html": "/bilele123123/memory-card/index.html",
-    "main.fe0bece8.css.map": "/bilele123123/memory-card/static/css/main.fe0bece8.css.map",
-    "main.5bc53997.js.map": "/bilele123123/memory-card/static/js/main.5bc53997.js.map"
+    "main.css": "/memory-card/static/css/main.b9c4874c.css",
+    "main.js": "/memory-card/static/js/main.7317b065.js",
+    "static/media/maplestory.otf": "/memory-card/static/media/maplestory.914d802a2a94c180d332.otf",
+    "static/media/fox-valley.png": "/memory-card/static/media/fox-valley.2e2f387fdfb073bab331.png",
+    "static/media/maplestory-nav.jpg": "/memory-card/static/media/maplestory-nav.fd3434d0fb2ce125c713.jpg",
+    "index.html": "/memory-card/index.html",
+    "main.b9c4874c.css.map": "/memory-card/static/css/main.b9c4874c.css.map",
+    "main.7317b065.js.map": "/memory-card/static/js/main.7317b065.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe0bece8.css",
-    "static/js/main.5bc53997.js"
+    "static/css/main.b9c4874c.css",
+    "static/js/main.7317b065.js"
   ]
 }
