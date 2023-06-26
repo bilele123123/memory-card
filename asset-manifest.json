@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bilele123123/memory-card/static/css/main.fe0bece8.css",
+    "main.js": "/bilele123123/memory-card/static/js/main.dec893df.js",
+    "static/media/maplestory.otf": "/bilele123123/memory-card/static/media/maplestory.914d802a2a94c180d332.otf",
+    "static/media/fox-valley.png": "/bilele123123/memory-card/static/media/fox-valley.2e2f387fdfb073bab331.png",
+    "static/media/maplestory-nav.jpg": "/bilele123123/memory-card/static/media/maplestory-nav.fd3434d0fb2ce125c713.jpg",
+    "index.html": "/bilele123123/memory-card/index.html",
+    "main.fe0bece8.css.map": "/bilele123123/memory-card/static/css/main.fe0bece8.css.map",
+    "main.dec893df.js.map": "/bilele123123/memory-card/static/js/main.dec893df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe0bece8.css",
+    "static/js/main.dec893df.js"
+  ]
+}
