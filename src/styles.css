@@ -33,6 +33,11 @@ body {
     flex-direction: column;
     align-items: center;
     background-image: url(assets/fox-valley.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 91vh;
 }
 
 .card {
@@ -50,9 +55,9 @@ body {
 
 .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px red; 
+    box-shadow: 0 0 10px red;
     border: 5px solid yellow;
-  
+
 }
 
 .score-board {
@@ -61,7 +66,8 @@ body {
     margin: 10px 20px;
 }
 
-.score, .highscore {
+.score,
+.highscore {
     margin: 0 50px;
     font-size: 24px;
     padding: 10px;
@@ -85,4 +91,90 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+}
+
+.win-message, .lose-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-size: 48px;
+    z-index: 9999;
+}
+
+.play-again-btn,
+.play-game-btn {
+    padding: 25px 50px;
+    font-size: 28px;
+    font: inherit;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: lightcyan;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.play-again-btn:hover,
+.play-game-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+    background-color: lightcoral;
+}
+
+.start-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-size: 48px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 90px;
+    background: conic-gradient(crimson, coral, #BDB3A3, crimson);
+    background-clip: text;
+    color: transparent;
+    background-size: 2000px 2000px;
+    animation: rgb 5s infinite linear;
+}
+
+@keyframes rgb {
+    0% {
+        background-position: 0 0;
+    }
+
+    25% {
+        background-position: 0 100%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    75% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.objective-text {
+    text-align: center;
 }

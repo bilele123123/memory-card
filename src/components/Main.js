@@ -3,7 +3,7 @@ import GameBoard from "./Game Content/GameBoard";
 
 function Main() {
     return (
-        <div>
+        <div className="Main">
             <GameBoard></GameBoard>
         </div>
     )
