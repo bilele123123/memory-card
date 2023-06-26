@@ -1,6 +1,6 @@
-import React from 'react';
-import './assets/maplestory.otf'
-import Header from './components/Header'
+import React, { Component } from 'react';
+import './assets/maplestory.otf';
+import Header from './components/Header';
 import Main from './components/Main';
 import './styles.css';
 
