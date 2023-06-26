@@ -1,4 +1,4 @@
-# Maplestory Themed Card Game
+# MapleStory Themed Card Game
 This is a web-based memory card game that test and challenge your memory skills. Your objective is to avoid clicking on the same card.
 
 ## Technologies Used
@@ -15,7 +15,7 @@ To get started with the project, follow these steps:
 - Open the project in your browser at http://localhost:3000
 
 ## Usage / More Details
-- The game consists of a grid of cards, each containing an image from the popular game Maplestory.
+- The game consists of a grid of cards, each containing an image from the popular game MapleStory.
 - The objective is to click on each card without clicking on the same card twice.
 Clicking on a card will earn you points and shuffle the cards.
 - If you click on the same card twice, you will lose the game.

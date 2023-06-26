@@ -77,7 +77,7 @@ function GameBoard() {
         <div className="game-board">
             {!isGameStarted && (
                 <div className="start-screen">
-                    <h1 className="welcome-text">Welcome to the Maplestory Memory Game</h1>
+                    <h1 className="welcome-text">Welcome to the MapleStory Memory Game</h1>
                     <p className="objective-text">A game to test your memories! Try to test and challenge your memory skills, avoid clicking on the same card!</p>
                     <button className="play-game-btn" onClick={startGame}>
                         Play Game
