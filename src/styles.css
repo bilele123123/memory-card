@@ -11,10 +11,8 @@ body {
 }
 
 .header-container {
-    padding: 60px;
-    background-image: url(assets/fox-valley.png);
-    background-size: cover;
-    background-position: center;
+    padding: 10px;
+    background-image: url(assets/maplestory-nav.jpg);
     display: flex;
     justify-content: center;
 }
@@ -27,4 +25,64 @@ body {
     border-radius: 10px;
     text-align: center;
     color: #FFFFFF;
+    border: 5px solid black;
+}
+
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/fox-valley.png);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px red; 
+    border: 5px solid yellow;
+  
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 20px;
+}
+
+.score, .highscore {
+    margin: 0 50px;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+    border: 5px solid black;
+}
+
+.score {
+    background-color: lightcoral;
+}
+
+.highscore {
+    background-color: lightcyan;
+}
+
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
 }
